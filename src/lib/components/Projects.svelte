@@ -3,8 +3,11 @@
 
 
 	let projects = [
-		{id:1, name: 'Some Project', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'This app does the most'},
-		{id:1, name: 'SupplyBox', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'This app does the most'}
+		{id:1, name: 'CloudDocs', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'A permission based cloud storage web solution for office use'},
+		{id:2, name: 'SupplyBox', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'This app does the most'},
+		{id:3, name: 'CaterGo', category: 'Inventory', href: 'https://github.com/', src: 'https://github.com/', desc: 'A catering webapplication with inventory used in offshore locations'},
+		{id:4, name: 'CaterGo', category: 'Inventory', href: 'https://github.com/', src: 'https://github.com/', desc: 'A catering webapplication with inventory used in offshore locations'}
+
 
 	]
 </script>

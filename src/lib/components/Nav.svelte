@@ -1,8 +1,9 @@
 <script>
 	let showMenu = false;
+	export let dark
 </script>
 
-<header class="bg-white shadow">
+<header class="bg-white shadow dark:bg-slate-900 ">
 	<div class="mx-auto px-2 sm:px-4 lg:divide-y lg:divide-gray-200 lg:px-8 ">
 		<div class="relative h-16 flex justify-between">
 			<!-- logo -->
@@ -16,7 +17,7 @@
 			</div>
 			<!-- logo -->
 
-			<div class="relative z-10 flex items-center lg:hidden">
+			<div class="relative z-10 flex items-center lg:hidden ">
 				{#if showMenu}
 					<button
 						on:click={() => (showMenu = !showMenu)}
@@ -69,12 +70,25 @@
 			<div
 				class="hidden space-x-2 lg:relative lg:z-10 lg:ml-4 lg:flex lg:items-center"
 			>
+			{#if dark}
 				<button
+				on:click={() => dark =!dark}
 					type="button"
 					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
 				>
 					<span class="sr-only">View notifications</span>
-
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+						<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+					  </svg>
+					
+				</button>
+				{:else}
+				<button
+				on:click={() => dark =!dark}
+					type="button"
+					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+				>
+					<span class="sr-only">View notifications</span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"
@@ -89,7 +103,11 @@
 							d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
 						/>
 					</svg>
+
+				
 				</button>
+
+				{/if}
 
 				<button
 					type="button"
@@ -137,12 +155,12 @@
 				</button>
 			</div>
 		</div>
-		<nav class="hidden lg:py-2 lg:flex lg:space-x-8" aria-label="Global">
+		<nav class="hidden lg:py-2 lg:flex lg:space-x-8 " aria-label="Global">
 			<!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
 			
 			<a
 				href="##"
-				class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 inline-flex items-center text-sm font-medium"
+				class="text-gray-900 dark:text-teal-400 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 inline-flex items-center text-sm font-medium"
 			>
 				Projects
 			</a>
@@ -150,7 +168,7 @@
 
 			<a
 				href="#govt"
-				class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 inline-flex items-center text-sm font-medium"
+				class="text-gray-900 dark:text-teal-400 hover:bg-gray-50 hover:text-gray-900 rounded-md py-2 px-3 inline-flex items-center text-sm font-medium"
 			>
 				REPL
 			</a>
@@ -164,25 +182,25 @@
 				<!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
 				<a
 					href="##"
-					class="bg-gray-100 text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+					class="bg-gray-100 dark:text-teal-400 text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
 					aria-current="page">Dashboard</a
 				>
 
 				<a
 					href="##"
-					class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+					class="text-gray-900 dark:text-teal-400 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
 					>Team</a
 				>
 
 				<a
 					href="##"
-					class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+					class="text-gray-900 dark:text-teal-400 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
 					>Projects</a
 				>
 
 				<a
 					href="##"
-					class="text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
+					class="text-gray-900 dark:text-teal-400 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium"
 					>Calendar</a
 				>
 			</div>

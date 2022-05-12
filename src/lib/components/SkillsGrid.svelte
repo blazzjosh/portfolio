@@ -22,7 +22,7 @@
 	{#each arr2 as { name, src }}
 		<div class="border p-2">
 			<!-- <img {src} alt="" /> -->
-			<span class="uppercase text-gray-600">{name}</span>
+			<span class="dark:text-teal-100 uppercase text-gray-600">{name}</span>
 		</div>
 	{/each}
 </div>

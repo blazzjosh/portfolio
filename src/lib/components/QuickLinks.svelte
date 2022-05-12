@@ -14,12 +14,13 @@
 </script>
 
 <div
-	class="max-w-sm mx-auto w-full flex justify-center items-center gap-2 flex-wrap"
+	class="max-w-sm mx-auto w-full flex justify-center items-center gap-2 flex-wrap dark:text-slate-400"
 >
 	{#each arr as { src, name, href}}
-		<a {href} target="_blank" class="border p-2 flex items-center justify-center space-x-1">
-			<img class="" {src} alt="" />
-			<div class="">{name}</div>
+		<a {href} target="_blank" class="dark:text-slate-400 border p-2 flex items-center justify-center space-x-1">
+			<!-- <object class="dark:bg-slate-400" data={src} title="" ></object> -->
+			<img {src} class="dark:hidden" alt="">
+			<div class="dark:text-teal-100">{name}</div>
 		</a>
 	{/each}
 </div>

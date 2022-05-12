@@ -38,6 +38,7 @@
 								d="M6 18L18 6M6 6l12 12"
 							/>
 						</svg>
+						
 					</button>
 				{:else}
 					<button
@@ -63,6 +64,7 @@
 								d="M4 6h16M4 12h16M4 18h16"
 							/>
 						</svg>
+						
 					</button>
 				{/if}
 			</div>
@@ -74,7 +76,7 @@
 				<button
 				on:click={() => dark =!dark}
 					type="button"
-					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+					class="flex-shrink-0 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
 				>
 					<span class="sr-only">View notifications</span>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -86,7 +88,7 @@
 				<button
 				on:click={() => dark =!dark}
 					type="button"
-					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+					class="flex-shrink-0 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
 				>
 					<span class="sr-only">View notifications</span>
 					<svg
@@ -111,7 +113,7 @@
 
 				<button
 					type="button"
-					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+					class="flex-shrink-0 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
 				>
 					<span class="sr-only">View notifications</span>
 
@@ -134,7 +136,7 @@
 
 				<button
 					type="button"
-					class="flex-shrink-0 bg-white rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+					class="flex-shrink-0 rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
 				>
 					<span class="sr-only">View notifications</span>
 

@@ -14,10 +14,10 @@
 
 <ul class='flex justify-center flex-wrap gap-8'>
 	{#each projects as {name, category, href, src, desc}}
-		<li class="text-left py-2">
-			<div class="flex w-64 flex-col justify-center bg-white rounded-2xl shadow-xl shadow-slate-300/60">
+		<li class="text-left py-2 ">
+			<div class="flex w-64 flex-col justify-center bg-white dark:bg-slate-800 rounded-2xl shadow-xl shadow-slate-300/60">
 				<img
-					class="border p-2 aspect-[3/1] w-full rounded-t-2xl object-contain"
+					class="border dark:border-0 p-2 aspect-[3/1] w-full rounded-t-2xl object-contain"
 					src={logo}
 					alt="screenshot"
 				/>
@@ -26,7 +26,7 @@
 					<small class="text-teal-400 text-xs"
 						>{category}</small
 					>
-					<h1 class="text-2xl font-medium text-slate-600 pb-2">
+					<h1 class="text-2xl font-medium text-slate-600 pb-2 dark:text-teal-100">
 						{name}
 					</h1>
 					<p

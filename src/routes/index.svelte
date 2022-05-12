@@ -20,13 +20,13 @@
 	>
 		<section>
 			<h2 class="text-4xl font-extrabold text-gray-500 sm:text-4xl">
-				<span class="block">Hi friend,</span>
+				<span class="block dark:text-teal-300">Hello! I'm Josh,</span>
 			</h2>
+					<p class="p-4 dark:text-slate-300">
+						I enjoy working closely with product and design to create amazing, polished user experiences, 
+						and will often go the extra mile to include whimsical touches; i'm mostly passionate about ☕  JavaScript and 🎨 UI/UX.
+					</p>
 
-			<p>
-				I'm Josh from 🇳🇬Nigeria and I'm infinitely curious at how things
-				work but mostly passionate about ☕ JavaScript and 🎨 UI/UX.
-			</p>
 		</section>
 
 		<section>

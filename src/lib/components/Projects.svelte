@@ -3,10 +3,10 @@
 
 
 	let projects = [
-		{id:1, name: 'CloudDocs', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'A permission based cloud storage web solution for office use'},
-		{id:2, name: 'SupplyBox', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'This app does the most'},
-		{id:3, name: 'CaterGo', category: 'Inventory', href: 'https://github.com/', src: 'https://github.com/', desc: 'A catering webapplication with inventory used in offshore locations'},
-		{id:4, name: 'CaterGo', category: 'Inventory', href: 'https://github.com/', src: 'https://github.com/', desc: 'A catering webapplication with inventory used in offshore locations'}
+		{id:1, name: 'CloudDocs', category: 'Office', href: 'https://github.com/', src: 'https://github.com/', desc: 'A permission based cloud storage web solution for office use'},
+		{id:2, name: 'SupplyBox', category: 'Internal', href: 'https://github.com/', src: 'https://github.com/', desc: 'A web application for supplier management'},
+		{id:3, name: 'TaskFlow', category: 'Productivity', href: 'https://github.com/', src: 'https://github.com/', desc: 'A web application for robust task management and rating'},
+		{id:4, name: 'CaterGo', category: 'Inventory', href: 'https://github.com/', src: 'https://github.com/', desc: 'A catering web application with inventory used in offshore locations'}
 
 
 	]

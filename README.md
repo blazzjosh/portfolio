@@ -5,7 +5,7 @@ This is basically my [`portfolio`](http://portfolio-blazzjosh.vercel.app/).
 
 ```bash
 
-## goal
+## opening screen
 
 welcome....
 

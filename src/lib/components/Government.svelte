@@ -22,10 +22,10 @@
           <dt class="text-sm font-medium text-gray-500">Salary expectation</dt>
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 dark:text-slate-300">$120,000</dd>
         </div>
-        <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
+        <!-- <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
           <dt class="text-sm font-medium text-gray-500">About</dt>
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 dark:text-slate-300">Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.</dd>
-        </div>
+        </div> -->
         <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
           <dt class="text-sm font-medium text-gray-500">Attachments</dt>
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">

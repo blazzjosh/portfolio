@@ -19,6 +19,7 @@
 		class="mx-auto flex-col space-y-28 text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8"
 	>
 		<section>
+	
 			<h2 class="text-4xl font-extrabold text-gray-500 sm:text-4xl">
 				<span class="block dark:text-teal-300">Hello! I'm Josh,</span>
 			</h2>

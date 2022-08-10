@@ -10,10 +10,12 @@
 	];
 
 	let projects = [];
-
 	let skills = [];
 </script>
 
+<svelte:head>
+	<title>Cradly Josh</title>
+</svelte:head>
 <section class="w-full flex-col justify-center items-center">
 	<div
 		class="mx-auto flex-col space-y-28 text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8"
